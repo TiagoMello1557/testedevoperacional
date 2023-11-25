@@ -287,7 +287,6 @@ public class Main {
 		System.out.println("Deslogado com sucesso");
 		usuarioLogado = null;
 		executarLoop(usuarios, clientes, empresas, produtos, carrinhos, vendas, usuarioLogado);
-		// Terminate the program
 	}
 
 	public static Venda criarVenda(List<Produto> carrinho, Empresa empresa, Cliente cliente, List<Venda> vendas) {
